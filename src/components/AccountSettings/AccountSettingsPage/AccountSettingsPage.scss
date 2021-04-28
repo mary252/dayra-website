@@ -1,0 +1,41 @@
+@import '../../../custom.scss';
+
+.AccountSettingsPage.container {
+  max-width: 400px;
+
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .membership-info {
+    background-color: #fff;
+    border: solid 1px $grey-extra-faded-text-color;
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+    .card-body {
+      padding: 0.3em;
+    }
+
+    p {
+      color: $primary-color;
+      font-size: 16px;
+      margin: 0;
+      text-align: center;
+      height: 100%;
+    }
+  }
+
+  button {
+    display: block;
+    border-radius: 35px;
+    margin: 0 auto;
+    background-color: $grey-text-color;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+  }
+}

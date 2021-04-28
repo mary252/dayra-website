@@ -1,0 +1,34 @@
+.App {
+  .AddNewIDForm {
+    .custom-label,
+    label:not(.customFileInput) {
+      font-size: 12px;
+      display: block;
+      font-weight: 300;
+    }
+
+    input,
+    select {
+      font-weight: 300;
+
+      option {
+        font-weight: 300;
+      }
+    }
+
+    label.customFileInput input[type='file'] {
+      position: absolute;
+      top: -1000px;
+    }
+
+    .customFileInput {
+      padding: 2px 5px;
+      margin: 2px;
+      display: block;
+    }
+
+    .text-danger {
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+@import '../../../custom.scss';
+
+.MarketplaceCategoriesPage.container {
+  max-width: 400px;
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .subtitle-row {
+    margin-top: 35px;
+  }
+
+  .carousel {
+    max-height: 200px;
+    border-radius: 5px;
+
+    .control-dots {
+      .dot {
+        margin: 0 4px;
+        border: 1px solid #fff;
+        background-color: transparent;
+        box-shadow: none;
+        opacity: 1;
+
+        &.selected {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+
+  .categories-row {
+    .col-6 {
+      padding: 10px;
+    }
+
+    .card {
+      .card-img-top {
+        height: 80px;
+      }
+
+      .card-body {
+        padding: 8px;
+
+        .card-title {
+          margin-bottom: 0;
+          font-size: 14px;
+          font-weight: 300;
+          color: $default-text-color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import '../../../custom.scss';
+
+.SelectIdPage {
+  display: flex;
+  justify-content: center;
+
+  .main {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 50px;
+  }
+
+  .id-button {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 300;
+    text-align: start;
+  }
+
+  .icon-container {
+    background-color: #ece6ff;
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    border-radius: 35px;
+  }
+
+  .id-card {
+    color: $primary-color;
+  }
+
+  .arrow-container {
+    display: inline;
+  }
+
+  .id-text {
+    display: inline;
+    font-size: 14px;
+  }
+}

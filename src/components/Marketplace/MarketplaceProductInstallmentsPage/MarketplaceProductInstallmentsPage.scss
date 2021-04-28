@@ -1,0 +1,39 @@
+@import '../../../custom.scss';
+
+.App {
+  .MarketplaceProductInstallmentsPage {
+    .title {
+      font-size: 18px;
+    }
+
+    hr {
+      border-top: 2px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .months,
+    .price {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .months {
+      font-weight: 700;
+    }
+
+    .card {
+      border: 2px solid rgba($color: #000000, $alpha: 0);
+
+      &.active {
+        border: 2px solid $primary-color;
+      }
+
+      .card-body {
+        padding: 20px 0;
+      }
+    }
+
+    .disabled {
+      pointer-events: none;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+@import '../../../custom.scss';
+
+.App {
+  .PaymentMethodsPage {
+    .header-container {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+    .title {
+      font-size: 16px;
+      font-family: $arabic-font-family;
+      font-weight: 500;
+      text-align: start;
+      margin-left: 10pt;
+      margin-right: 11pt;
+      margin-top: 5pt;
+    }
+    .icon {
+      color: $primary-color;
+    }
+    .header-innercontainer {
+      display: flex;
+      padding-left: 25pt;
+      padding-right: 25pt;
+      align-content: center;
+    }
+    .wallet-background {
+      background-color: $button-text-color;
+      border: 1pt solid $button-text-color;
+      width: 27pt;
+      border-radius: 50%;
+      text-align: center;
+      align-items: center;
+      height: 34px;
+      padding-top: 3px;
+    }
+    .card-container {
+      font-size: 10px;
+      width: 100%;
+      max-width: 400px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .card {
+        border-radius: 35px !important;
+        text-align: start;
+        padding-left: 0pt;
+        padding-right: 0pt;
+
+        .card-body {
+          .card-title {
+            width: 100%;
+            border-bottom: 2px solid $grey-text-color;
+            text-align: start;
+            padding-bottom: 10pt;
+            font-size: 10pt;
+            font-family: $arabic-font-family;
+            font-weight: 300;
+          }
+          .button-add {
+            margin-top: 15pt;
+            width: 100%;
+            font-size: 12px;
+            font-family: $arabic-font-family;
+            font-weight: 500;
+          }
+
+          .btn:disabled {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../../custom.scss';
+
+.ConfirmId {
+  margin-top: -55px;
+
+  .video-container {
+    padding-top: 10px;
+    max-width: 400px;
+    padding-bottom: 10px;
+  }
+
+  .top-container {
+    padding-top: 30px;
+  }
+
+  .title {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+  }
+
+  .subtitle {
+    line-height: 1.5;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  .btn {
+    color: black;
+  }
+
+  .btn-container {
+    padding-top: 20px;
+  }
+
+  .recapt-btn {
+    box-shadow: 1px 1px 1px #ddd;
+    border: 1px solid #dddddd55;
+  }
+
+  img.mx-auto {
+    border-radius: 10px;
+  }
+}

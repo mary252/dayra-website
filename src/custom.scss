@@ -1,0 +1,28 @@
+$primary-color: #a58cff;
+$faded-primary-color: #d1c4ff;
+$secondary-color: #44c9a8;
+$grey-dropdown-color: #e8e7e7;
+
+$default-text-color: #212529;
+$grey-text-color: #6c757d;
+$grey-faded-text-color: #c2c2c2;
+$grey-extra-faded-text-color: #e0e0e0;
+$english-font-family: Monument Extended;
+$arabic-font-family: Bukra;
+$arabic-secondary-font-family: DIN Next;
+$fallback-font-family: Helvetica Neue, Helvetica, sans-serif;
+
+$button-text-color: #fff;
+$background-gradient-grey: #f5f5f5;
+$background-gradient-blue: #8fcbf4;
+$background-gradient-orange: #f1b66f;
+$background-gradient-purple: #a97efb;
+
+$red: #ff4545;
+
+$theme-colors: (
+  'primary': $primary-color,
+  'secondary': $secondary-color,
+  'dropdown': $grey-dropdown-color,
+  'grey': $grey-text-color,
+);

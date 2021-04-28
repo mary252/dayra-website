@@ -1,0 +1,30 @@
+.AccountSettingsAvatar {
+  position: relative;
+  clip-path: circle(50px at center);
+  margin-bottom: 10px;
+
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  a {
+    font-size: 12px;
+    background-color: rgb(232, 231, 231);
+    position: absolute;
+    overflow: hidden;
+    height: 20px;
+    padding: 5px 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+  }
+}

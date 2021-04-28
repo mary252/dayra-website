@@ -1,0 +1,71 @@
+@import '../../../custom.scss';
+
+.App {
+  .FactoringConfirmationPage {
+    max-width: 400px;
+
+    .card {
+      border-radius: 4px;
+      .card-body {
+        padding: 0;
+
+        .table {
+          $side-margins: 15px;
+          margin: 0 $side-margins;
+          width: calc(100% - #{$side-margins * 2});
+
+          .number {
+            vertical-align: bottom;
+          }
+
+          tr {
+            &.primary-border:not(:last-child) td {
+              border-bottom: 2px solid $faded-primary-color;
+            }
+
+            &.hard-border td {
+              border-bottom: 2px solid #bdbebe;
+            }
+
+            td {
+              padding: 9px 0;
+            }
+          }
+        }
+      }
+    }
+
+    .payment-method {
+      padding-top: 5px;
+      padding-bottom: 3px;
+      vertical-align: middle;
+      font-weight: 700;
+    }
+  }
+
+  &.ar {
+    .FactoringConfirmationPage {
+      .title {
+        font-size: 18px;
+      }
+
+      .table {
+        .number {
+          font-size: 12px;
+        }
+      }
+
+      .payment-method {
+        font-size: 12px;
+      }
+
+      .confirmation-prompt {
+        font-size: 12px;
+      }
+
+      .confirm-button {
+        font-size: 12px;
+      }
+    }
+  }
+}

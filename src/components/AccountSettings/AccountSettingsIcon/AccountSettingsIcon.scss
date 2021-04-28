@@ -1,0 +1,15 @@
+@import '../../../custom.scss';
+
+.AccountSettingsIcon {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(165, 140, 255, 0.25);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    color: $primary-color;
+  }
+}

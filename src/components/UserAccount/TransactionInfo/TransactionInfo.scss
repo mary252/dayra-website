@@ -1,0 +1,120 @@
+@import '../../../custom.scss';
+
+.UserTransactionInfoPage {
+  .header-link {
+    display: flex;
+    margin-bottom: 54pt;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    .back {
+      font-size: 14px;
+      text-align: start;
+      border: none;
+      background: none;
+      cursor: pointer;
+      margin: 0;
+      padding: 0;
+      font-weight: 500;
+    }
+  }
+
+  .arrowIcon {
+    width: 20px;
+    height: 20px;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+
+  .card-container {
+    border: none;
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .card {
+      .card-body {
+        padding: 10px 0;
+      }
+
+      border-radius: 10px;
+    }
+
+    tr.transaction-data td {
+      border-bottom: 1px solid $grey-extra-faded-text-color;
+      border-top: none;
+    }
+
+    .date {
+      font-size: 12px;
+      padding-top: 16px;
+      border: none;
+    }
+
+    .amount {
+      font-size: 18px;
+      width: 100pt;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .icon-container {
+      padding-left: 20px;
+      padding-right: 6px;
+
+      .icon {
+        width: 20px;
+        height: 27px;
+        fill: $primary-color;
+      }
+    }
+
+    .type {
+      width: 200pt;
+      text-align: start;
+      font-size: 18px;
+      font-weight: 300;
+    }
+    .description {
+      text-align: start;
+      font-size: 12px;
+      font-weight: 300;
+      margin-bottom: 0px;
+    }
+    .amountoutgoing {
+      color: $red;
+    }
+  }
+}
+
+.ar {
+  .UserTransactionInfoPage {
+    &.secondary-font,
+    .secondary-font {
+      font-weight: 300;
+      color: $grey-text-color;
+    }
+
+    .description {
+      font-size: 12px;
+      padding: 0 20px;
+    }
+
+    .icon-container {
+      padding-left: 6px;
+      padding-right: 20px;
+    }
+
+    .date {
+      padding-right: 20px;
+    }
+
+    .amount {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

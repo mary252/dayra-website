@@ -1,0 +1,66 @@
+@import '../../../custom.scss';
+
+$progress-col-width: 20%;
+
+.AccountStatus {
+  .card {
+    .card-body {
+      padding-top: 15px;
+      padding-bottom: 0;
+
+      .progress-col {
+        flex: 0 0 $progress-col-width;
+        max-width: $progress-col-width;
+      }
+
+      .title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0;
+        color: $primary-color;
+      }
+
+      .sub-title {
+        font-size: 14px;
+      }
+
+      .description {
+        font-size: 10px;
+      }
+
+      .CircularProgressbar {
+        .CircularProgressbar-path {
+          stroke: #64baf4;
+        }
+
+        .CircularProgressbar-text {
+          font-size: 18px;
+          font-weight: bold;
+          fill: $default-text-color;
+        }
+      }
+    }
+  }
+}
+
+.ar {
+  .AccountStatus {
+    .card {
+      .card-body {
+        .title,
+        .sub-title,
+        .description {
+          text-align: right;
+        }
+
+        .sub-title {
+          font-size: 18px;
+        }
+
+        .description {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

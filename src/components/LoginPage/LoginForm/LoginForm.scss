@@ -1,0 +1,60 @@
+@import '../../../custom.scss';
+
+$pincode-input-container-width: 270px;
+$pincode-box-width: 45px;
+$pincode-box-height: 35px;
+$pincode-box-background-color: #fff;
+$pincode-box-border-color: #ddd;
+$pincode-border-radius: 5px;
+
+.LoginForm {
+  font-size: 12px;
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .pincode-input-container {
+    direction: ltr;
+    font-family: $english-font-family, $fallback-font-family;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: $pincode-input-container-width;
+
+    .pincode-input-text {
+      font-weight: 300;
+      margin: 0 !important;
+      width: $pincode-box-width !important;
+      height: $pincode-box-height !important;
+      background-color: $pincode-box-background-color !important;
+      border-color: $pincode-box-border-color !important;
+
+      &:not(:last-child) {
+        border-right: none !important;
+      }
+
+      &:first-child {
+        border-top-left-radius: $pincode-border-radius;
+        border-bottom-left-radius: $pincode-border-radius;
+      }
+
+      &:last-child {
+        border-top-right-radius: $pincode-border-radius;
+        border-bottom-right-radius: $pincode-border-radius;
+      }
+    }
+  }
+}
+
+.ar {
+  .LoginForm {
+    .pincode-title {
+      font-size: 16px;
+    }
+
+    .forgot-password {
+      font-size: 14px;
+    }
+  }
+}

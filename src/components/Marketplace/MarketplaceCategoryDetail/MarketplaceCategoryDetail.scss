@@ -1,0 +1,29 @@
+@import '../../../custom.scss';
+
+.MarketplaceCategoryDetail {
+  .card {
+    color: $default-text-color;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+
+    .brand-col {
+      margin-bottom: 10px;
+
+      .brand-image {
+        $image-size: 100px;
+
+        width: $image-size;
+        height: $image-size;
+        border-radius: $image-size / 2;
+      }
+
+      .brand-name {
+        font-size: 14px;
+      }
+    }
+  }
+}

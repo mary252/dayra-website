@@ -1,0 +1,43 @@
+@import '../../../../../custom.scss';
+
+.TransactionEntry {
+  .btn {
+    padding: 0 5px;
+    font-size: 10px;
+  }
+}
+
+tr.TransactionEntry.hard-border:not(:last-child) td {
+  border-bottom: 2px solid #bdbebe;
+}
+
+tr.TransactionEntry.primary-border td {
+  border-bottom: 1px solid $faded-primary-color;
+}
+
+tr.TransactionEntry {
+  td {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+tr.TransactionEntry:first-child td {
+  border-top: none;
+}
+
+.ar {
+  .TransactionEntry {
+    &.secondary-font,
+    .secondary-font {
+      font-size: 16px;
+      font-weight: 300;
+      color: $grey-text-color;
+    }
+
+    .btn {
+      padding: 4px 10px;
+      font-size: 8px;
+    }
+  }
+}

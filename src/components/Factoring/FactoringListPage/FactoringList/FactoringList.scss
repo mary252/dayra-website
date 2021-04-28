@@ -1,0 +1,50 @@
+@import '../../../../custom.scss';
+
+.FactoringList {
+  font-size: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .card {
+    border-radius: 35px !important;
+
+    .card-body {
+      padding-top: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+
+      .nav-link {
+        font-size: 9px;
+        padding: 0 0 10px 0;
+        width: 33.333333%;
+        text-align: center;
+        color: $grey-faded-text-color;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid $grey-extra-faded-text-color;
+
+        &:hover {
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 3px solid $grey-extra-faded-text-color;
+        }
+
+        &.active {
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 3px solid $primary-color;
+          color: $default-text-color;
+        }
+      }
+
+      .tab-content {
+        margin-top: 10px;
+      }
+    }
+  }
+}

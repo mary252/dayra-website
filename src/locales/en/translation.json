@@ -1,0 +1,279 @@
+{
+    "egp": "EGP",
+    "egpShort": "L.E",
+    "bankTransfer": "Bank Transfer",
+    "paypal": "Paypal",
+    "buy": "Buy",
+    "month": "Month",
+    "months": "Months",
+    "next": "Next",
+    "invoice": "Invoice",
+    "total": "Total",
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December",
+    "paymentMethod": "Payment method",
+    "confirmationPrompt": "Confirm",
+    "back": "Back",
+    "activated": "Activated",
+    "notActivated": "Not Activated",
+    "add": "Add",
+    "LoginPage": {
+        "title": "Dayra",
+        "welcome": "Welcome to Dayra!",
+        "broughtToYouBy": "Brought to You By"
+    },
+    "LoginForm": {
+        "pinCodePrompt": "Enter PIN Code",
+        "loginButtonText": "Login",
+        "forgotPassword": "Forgot Password?"
+    },
+    "AccountStatus": {
+        "accountStatus": "Account Status",
+        "availableBalance": "Available balance",
+        "description": "Description"
+    },
+    "Services": {
+        "services": "Services"
+    },
+    "FactoringPage": {
+        "title": "Factoring"
+    },
+    "FactoringHeaderCard": {
+        "title": "Total available for factoring"
+    },
+    "FactoringList": {
+        "transactions": "Transactions",
+        "receivable": "Receivable",
+        "previousTransactions": "Previous"
+    },
+    "TransactionEntry": {
+        "date": "Date",
+        "invoices": "Invoices",
+        "remainder": "Remainder",
+        "factor": "factor",
+        "factoredAmount": "Factored amount"
+    },
+    "ReceivableEntry": {
+        "date": "Date",
+        "invoices": "Invoices",
+        "factoredAmount": "Factored amount"
+    },
+    "HistoricalTransactionEntry": {
+        "date": "Date",
+        "invoices": "Invoices",
+        "factoredAmount": "Factored amount"
+    },
+    "FactoringSliderPage": {
+        "title": "Factoring amount"
+    },
+    "FactoringSliderForm": {
+        "sliderLabel": "Use the slider to change the amount",
+        "cardTitle": "Amount",
+        "dropdownLabel": "Pick payment method",
+        "confirm": "Confirm"
+    },
+    "FactoringConfirmationPage": {
+        "title": "Invoice",
+        "amountToFactor": "Amount to factor",
+        "factoringCost": "Factoring cost",
+        "amountReceivable": "Amount receivable",
+        "amountAfterFactoring": "Amount after factoring",
+        "confirmButton": "Confirm"
+    },
+    "marketplace": {
+        "title": "Shop",
+        "products": "Products",
+        "productDescription": "Product Description",
+        "quantity": "quantity",
+        "total": "total price",
+        "installments": "Installments",
+        "payCash": "Pay cash"
+    },
+    "MarketplaceProductInstallmentsPage": {
+        "title": "Installment Request",
+        "prompt": "Choose installment plan"
+    },
+    "Footer": {
+        "service": "This service is provided by Dayra"
+    },
+    "MarketplaceProductInvoicePage": {
+        "installmentDuration": "Installment Duration",
+        "monthlyInstallment": "Monthly Installment",
+        "firstInstallmentOn": "First Installment On"
+    },
+    "ConfirmationPage": {
+        "title": "Transaction successful"
+    },
+    "MainPage": {
+        "dayra": "Dayra",
+        "title": "Digital Identification Technologies",
+        "login": "Login",
+        "register": "Register",
+        "needHelp": "Need help?"
+    },
+    "SignupPage": {
+        "title": "Registration",
+        "description": "Please fill all the info to create an account",
+        "name": "Name",
+        "phoneNumber": "Phone number",
+        "password": "Password",
+        "confirmPassword": "Confirm password",
+        "register": "Register",
+        "existingAccount": "Already have an account?",
+        "login": "Login"
+    },
+    "AccountSettingsPage": {
+        "changeAvatar": "Change",
+        "customerID": "Customer ID",
+        "memberSince": "Member Since",
+        "profileInfo": "Profile Information",
+        "changePassword": "Change Password",
+        "contactInfo": "Contact Information",
+        "addressInfo": "Address Information",
+        "IDdocs": "Identification Documents",
+        "paymentMethods": "Payment Methods",
+        "logout": "Logout"
+    },
+    "ProfileSettingsPage": {
+        "fullNameAsAppearsOnId": "Full Name (as it appears on your National ID Card)",
+        "firstName": "First Name",
+        "birthDate": "Birth Date",
+        "nationalIDNumber": "National ID Number",
+        "update": "Update",
+        "firstNameValidation": "Name is required and can only contain Arabic or English characters."
+    },
+    "ChangePasswordPage": {
+        "changePassword": "Change Password",
+        "oldPassword": "Enter old password",
+        "newPassword": "Enter new password",
+        "confirmNewPassword": "Confirm new password",
+        "update": "Update",
+        "forgotPassword": "Forgot Password?",
+        "oldPasswordValidation": "Old password is required",
+        "newPasswordValidation": "Password must be at least 8 characters long and contain one uppercase letter, one lowercase letter, one special character, and one number",
+        "confirmNewPasswordValidation": "Please confirm new password",
+        "passwordsMatchValidation": "Your passwords don't match"
+    },
+    "ContactInfoPage": {
+        "contact": "Contact",
+        "phoneNumberType": "Phone number type",
+        "workPlace": "Workplace",
+        "enterNewNumber": "Enter new number",
+        "add": "Add",
+        "savedNumbers": "Saved numbers on this account",
+        "work": "Work",
+        "home": "Home",
+        "personal": "Personal",
+        "authenticated": "Authenticated",
+        "notAuthenticated": "Not authenticated",
+        "phoneNumberValidation": "Please enter a valid phone number"
+    },
+    "PaymnetMethods": {
+        "title": "Payment Methods",
+        "cardTitle": "Availble Payment Methods",
+        "wallet": "Dayra Wallet",
+        "bank": "Bank Account",
+        "vipCard": "VIP Card",
+        "addButton": "Add Payment Method"
+    },
+    "AddNewPayment": {
+        "type": "Add the type of the Payment Method",
+        "source": "Card Source",
+        "number": "Card Number",
+        "publishDate": "Publish Date",
+        "expireDAte": "Expire Date"
+    },
+    "IDdocsPage": {
+        "personalIDdocs": "Personal Identification Documents",
+        "nationalID": "National ID Card",
+        "driversLicense": "Driver's License",
+        "passport": "Passport",
+        "authenticated": "Authenticated",
+        "notAuthenticated": "Not Authenticated",
+        "addNewID": "Add New ID"
+    },
+    "AddNewIDPage": {
+        "personalIDdocs": "Personal Identification Documents",
+        "chooseTypeOfDoc": "Choose type of document",
+        "nationalID": "National ID Card",
+        "driversLicense": "Driver's License",
+        "passport": "Passport",
+        "enterIDNumber": "Enter ID Number",
+        "issueDate": "Issue date",
+        "expiryDate": "Expiry Date",
+        "attachFile": "Attach File",
+        "add": "Add",
+        "IDNumberValidation": "Please enter a valid National ID Number",
+        "invalidDateFormatValidation": "Please enter a valid date format",
+        "invalidDateValidation": "Please enter a valid date",
+        "attachFileValidation": "Please attach a file"
+    },
+    "SelectIdPage": {
+        "title": "Identity Verification",
+        "selectId": "Identification Card"
+    },
+    "IdFront": {
+        "title": "Capture ID front",
+        "subtitle": "Now put your phone directly on top of your national identification card",
+        "firstPoint": "Good lighting",
+        "firstPointsub": "Make sure you are in a well-lit area",
+        "secondPoint": "Flat surface",
+        "secondPointsub": "Please place the ID on a flat surface",
+        "thirdPoint": "Capture",
+        "thirdPointsub": "Put your photo inside the frame and take the picture",
+        "capture": "Capture"
+    },
+    "CaptureId": {
+        "subtitle": "Put your ID inside the frame and take the picture"
+    },
+    "ConfirmId": {
+        "title": "Confirm capture of ID front",
+        "subtitle": "This is the front for your national ID card that you captured, please check and confirm, reject or recapture ",
+        "confirm": "Confirm",
+        "recapture": "Recapture"
+    },
+    "CaptureIdBack": {
+        "title": "Capture ID back"
+    },
+    "ConfirmIdBack": {
+        "title": "Confirm capture of ID back",
+        "subtitle": "This is the back for your national ID card that you captured, please check and confirm, reject or recapture "
+    },
+    "Results": {
+        "title": "Results",
+        "name": "Name",
+        "idNumber": "Identification Number",
+        "birthDate": "Birth Date",
+        "address": "Address",
+        "gender": "Gender",
+        "maritalStatus": "Marital Status",
+        "job": "Job",
+        "expiryDate": "Expiry Date",
+        "next": "Next"
+    },
+    "Loader": {
+        "load": "Uploading"
+    },
+    "UserAccountHeaderCard": {
+        "title": "Availble Balance"
+    },
+    "UserAccountTransactionList": {
+        "transactions": "Transactions",
+        "upcoming": "Upcoming",
+        "incoming": "Incoming",
+        "outgoing": "Outgoing"
+    },
+    "UserAccountTransactionInfo": {
+        "text": "There are about one billion migrant workers around the world who send money to their families in the form of remittances"
+    }
+}

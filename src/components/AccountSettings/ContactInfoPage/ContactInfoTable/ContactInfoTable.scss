@@ -1,0 +1,31 @@
+@import '../../../../custom.scss';
+
+.App {
+  .ContactInfoTable {
+    .primary-border td {
+      border-bottom: 1px solid $faded-primary-color;
+    }
+
+    td {
+      font-size: 16px;
+      font-weight: 300;
+      padding: 0.5em 0.3em;
+      &:nth-of-type(2) {
+        font-weight: 400;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .delete {
+      color: #ff4545;
+    }
+
+    button {
+      font-size: 10px;
+    }
+  }
+}

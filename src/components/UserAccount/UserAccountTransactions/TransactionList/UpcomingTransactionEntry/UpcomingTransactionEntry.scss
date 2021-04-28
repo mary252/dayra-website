@@ -1,0 +1,79 @@
+@import '../../../../../custom.scss';
+
+.UpcomingTransactionEntry {
+  border: none;
+
+  tr td {
+    $table-element-padding: 7px;
+
+    padding-top: $table-element-padding;
+    padding-bottom: $table-element-padding;
+
+    &.date {
+      padding-top: 20px;
+      padding-bottom: 0;
+      border: none;
+    }
+  }
+
+  .amount {
+    width: 100pt;
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: 700;
+
+    &.changed-amount {
+      width: 120pt;
+    }
+  }
+
+  .icon-container {
+    padding-left: 0;
+    padding-right: 0;
+
+    .icon {
+      width: 20px;
+      height: 27px;
+    }
+  }
+
+  .type {
+    width: 100pt;
+    text-align: start;
+    font-size: 20pt;
+    font-weight: 300;
+  }
+
+  .amount-outgoing {
+    color: $red;
+  }
+
+  .upcoming-transaction {
+    border-top: none;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $faded-primary-color;
+      border-top: none;
+    }
+  }
+
+  &:not(:last-child) {
+    border-bottom: 2px solid #bdbebe;
+    border-top: none;
+  }
+}
+
+.ar {
+  .UpcomingTransactionEntry {
+    &.secondary-font,
+    .secondary-font {
+      font-size: 16px;
+      color: $grey-text-color;
+    }
+
+    .btn {
+      padding: 4px 10px;
+      font-size: 8px;
+    }
+  }
+}

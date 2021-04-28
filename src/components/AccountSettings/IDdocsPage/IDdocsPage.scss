@@ -1,0 +1,34 @@
+.App {
+  .IDdocsPage {
+    .IDdocsHeader {
+      width: 100%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+
+      h1 {
+        font-size: 18px;
+      }
+    }
+
+    .card {
+      border-top-left-radius: 35px;
+      border-top-right-radius: 35px;
+    }
+    .IDdocsList {
+      width: 100%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+
+      h2 {
+        font-weight: 300;
+        font-size: 12px;
+      }
+    }
+
+    a {
+      font-size: 14px;
+    }
+  }
+}

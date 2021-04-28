@@ -1,0 +1,26 @@
+@import '../../../custom.scss';
+
+.Results {
+  .title {
+    font-size: 18px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .menu-wrapper--inner {
+    width: 400px !important;
+  }
+
+  .btn-container {
+    padding-top: 20px;
+  }
+
+  .recapt-btn {
+    color: black;
+    border: none;
+    background-color: $grey-extra-faded-text-color;
+  }
+}

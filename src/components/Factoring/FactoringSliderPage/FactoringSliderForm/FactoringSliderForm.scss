@@ -1,0 +1,105 @@
+@import '../../../../custom.scss';
+
+$thumb-diameter: 15px;
+
+.FactoringSliderForm {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .slider-label {
+    font-size: 18px;
+  }
+
+  .slider-track {
+    height: 3px;
+    background-color: $grey-faded-text-color;
+
+    &.slider-track-0 {
+      background-color: $primary-color;
+    }
+  }
+
+  .slider-thumb {
+    top: -6px;
+    height: $thumb-diameter;
+    line-height: 25px;
+    width: $thumb-diameter;
+    text-align: center;
+    background-color: $primary-color;
+    color: #fff;
+    border-radius: 50%;
+    cursor: grab;
+  }
+
+  .card {
+    .card-body {
+      .card-title {
+        font-weight: 300;
+        text-align: center;
+        font-size: 16px;
+      }
+
+      .card-amount {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 0;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .dropdown-label {
+    font-size: 16px;
+  }
+
+  .btn.dropdown-toggle {
+    border-radius: 5px;
+
+    &::after {
+      float: right;
+      text-align: right;
+    }
+
+    &:not(:empty)::after {
+      margin-top: 7px;
+    }
+  }
+
+  .dropdown-menu {
+    width: 100%;
+  }
+
+  .confirm-button {
+    height: 35px;
+  }
+}
+
+.ar {
+  .FactoringSliderForm {
+    $buttons-font-size: 12px;
+
+    .btn.dropdown-toggle {
+      font-size: $buttons-font-size;
+
+      &::after {
+        float: left;
+        text-align: left;
+      }
+
+      &:empty::after {
+        margin-left: 3px;
+      }
+    }
+
+    .dropdown-item {
+      font-size: $buttons-font-size;
+      text-align: right;
+    }
+
+    .confirm-button {
+      font-size: $buttons-font-size;
+    }
+  }
+}

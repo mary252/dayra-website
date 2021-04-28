@@ -1,0 +1,52 @@
+@import '../../custom.scss';
+
+.SignupPage {
+  width: 100%;
+  max-width: 400px;
+  .signup-container {
+    margin: 0 35px;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .description {
+    font-size: 16px;
+    font-family: $arabic-secondary-font-family;
+    margin-bottom: 30px;
+  }
+
+  form {
+    margin-left: auto;
+    margin-right: auto;
+    label {
+      font-weight: 300;
+      font-size: 14px;
+      display: block;
+    }
+
+    input {
+      border: 1px solid $grey-extra-faded-text-color;
+      border-radius: 5px;
+      margin-bottom: 25px;
+      padding: 5px 15px;
+      color: $grey-text-color;
+      font-size: 16px;
+      font-family: $arabic-secondary-font-family;
+      font-weight: 300;
+    }
+  }
+
+  .helper-text {
+    font-family: $arabic-secondary-font-family;
+
+    span {
+      a {
+        font-weight: 400;
+        text-decoration: none;
+      }
+    }
+  }
+}

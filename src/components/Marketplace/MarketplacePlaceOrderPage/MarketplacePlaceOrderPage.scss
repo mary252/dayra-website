@@ -1,0 +1,65 @@
+@import '../../../custom.scss';
+
+.MarketplacePlaceOrderPage {
+  .breadcrumb {
+    border: 1px solid $default-text-color !important;
+
+    .breadcrumb-item a {
+      color: $default-text-color !important;
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+      color: $default-text-color !important;
+    }
+  }
+
+  .card {
+    .card-body {
+      font-size: 14px;
+
+      .btn {
+        border: none;
+        padding: 5px;
+      }
+
+      .quantity,
+      .total {
+        font-weight: 700;
+      }
+
+      .quantity {
+        display: inline-block;
+        margin-top: 5px;
+      }
+
+      .quantity-input {
+        margin: 0 7px;
+        width: 60px;
+        height: 30px;
+        display: inline-block;
+      }
+
+      .col {
+        padding: 0;
+      }
+    }
+  }
+
+  .actions {
+    .btn {
+      font-weight: 500;
+    }
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}

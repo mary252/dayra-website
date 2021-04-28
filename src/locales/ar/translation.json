@@ -1,0 +1,279 @@
+{
+    "egp": "جنيه",
+    "egpShort": "ج",
+    "bankTransfer": "تحويل بنكي",
+    "paypal": "تحويل مش بنكي",
+    "buy": "إشتري",
+    "month": "شهر",
+    "months": "شهور",
+    "next": "التالي",
+    "invoice": "الفاتورة",
+    "total": "إجمالي المبلغ",
+    "january": "يناير",
+    "february": "فبراير",
+    "march": "مارس",
+    "april": "أبريل",
+    "may": "مايو",
+    "june": "يونيو",
+    "july": "يوليو",
+    "august": "أغسطس",
+    "september": "سبتمبر",
+    "october": "أكتوبر",
+    "november": "نوفمبر",
+    "december": "ديسمبر",
+    "paymentMethod": "طريقة الدفع",
+    "confirmationPrompt": "تم مراجعة الفاتورة و الموافقة على جميع الشروط و الأحكام",
+    "back": "رجوع",
+    "activated": "مفعل",
+    "notActivated": "غير مفعل",
+    "add": "أضف",
+    "LoginPage": {
+        "title": "دايــــــرة",
+        "welcome": "أهلاً بك في دايرة!",
+        "broughtToYouBy": "الخدمة بواسطة"
+    },
+    "LoginForm": {
+        "pinCodePrompt": "أدخل الرقم السري",
+        "loginButtonText": "تسجيل دخول",
+        "forgotPassword": "هل نسيت الرقم السري؟"
+    },
+    "AccountStatus": {
+        "accountStatus": "حالة الحساب",
+        "availableBalance": "الرصيد المتوفر",
+        "description": "يوجد نحو مليار عامل وافد حول العالم يرسلون الأموال إلى عائلاتهم في شكل حوالات مالية"
+    },
+    "Services": {
+        "services": "الخدمات"
+    },
+    "FactoringPage": {
+        "title": "التخصيم"
+    },
+    "FactoringHeaderCard": {
+        "title": "إجمالي المبلغ صالح لتخصيم"
+    },
+    "FactoringList": {
+        "transactions": "المعاملات",
+        "receivable": "المستحق",
+        "previousTransactions": "المعاملات السابقة"
+    },
+    "TransactionEntry": {
+        "date": "تاريخ",
+        "invoices": "فواتير",
+        "remainder": "المبلغ المتبقي",
+        "factor": "تخصيم",
+        "factoredAmount": "المبلغ المخصم"
+    },
+    "ReceivableEntry": {
+        "date": "تاريخ",
+        "invoices": "فواتير",
+        "factoredAmount": "المبلغ المخصم"
+    },
+    "HistoricalTransactionEntry": {
+        "date": "تاريخ التخصيم",
+        "invoices": "فواتير",
+        "factoredAmount": "المبلغ المخصم"
+    },
+    "FactoringSliderPage": {
+        "title": "تخصيم مبلغ"
+    },
+    "FactoringSliderForm": {
+        "sliderLabel": "حرك العصا لتحديد مبلغ التخصيم",
+        "cardTitle": "العائد من العملية",
+        "dropdownLabel": "إختر طريقة الدفع",
+        "confirm": "تأكيد"
+    },
+    "FactoringConfirmationPage": {
+        "title": "الفاتورة",
+        "amountToFactor": "المبلغ المخصم",
+        "factoringCost": "تكلفة التخصيم",
+        "amountReceivable": "العائد المستحق",
+        "amountAfterFactoring": "المبلغ بعد التخصيم",
+        "confirmButton": "إتمام العملية"
+    },
+    "marketplace": {
+        "title": "تسوق",
+        "products": "المنتجات",
+        "productDescription": "تفاصيل المنتج",
+        "quantity": "الكمية",
+        "total": "إجمالي السعر",
+        "installments": "قسط",
+        "payCash": "إدفع كاش"
+    },
+    "MarketplaceProductInstallmentsPage": {
+        "title": "طلب قسط",
+        "prompt": "إختار مدة سداد القسط"
+    },
+    "Footer": {
+        "service": "الخدمة بواسطة دايرة"
+    },
+    "MarketplaceProductInvoicePage": {
+        "installmentDuration": "مدة التقسيط",
+        "monthlyInstallment": "القسط الشهري",
+        "firstInstallmentOn": "تاريخ أول قسط مستحق"
+    },
+    "ConfirmationPage": {
+        "title": "تمت العملية بنجاح"
+    },
+    "MainPage": {
+        "dayra": "دايــــــرة",
+        "title": "تقنيات التحقق من الهوية الرقمية",
+        "login": "تسجيل دخول",
+        "register": "حساب جديد",
+        "needHelp": "تحتاج لمساعده؟"
+    },
+    "SignupPage": {
+        "title": "حساب جديد",
+        "description": "من فضلك ادخل جميع البيانات لإنشاء حساب جديد",
+        "name": "الاسم",
+        "phoneNumber": "رقم تليفون",
+        "password": "كلمه المرور",
+        "confirmPassword": "تأكيد كلمه المرور",
+        "register": "حساب جديد",
+        "existingAccount": "لديك حساب بالفعل؟",
+        "login": "تسجيل الدخول"
+    },
+    "AccountSettingsPage": {
+        "changeAvatar": "تغيير",
+        "customerID": "عميل رقم",
+        "memberSince": "منذ",
+        "profileInfo": "إعدادات شخصية",
+        "changePassword": "تغير الرقم السري",
+        "contactInfo": "طرق الإتصال",
+        "addressInfo": "العنوان",
+        "IDdocs": "بطاقات التعريف الشخصية",
+        "paymentMethods": "وسائل الدفع",
+        "logout": "تسجيل خروج"
+    },
+    "ProfileSettingsPage": {
+        "fullNameAsAppearsOnId": "الإسم بالكامل (كما هو مدون في البطاقة",
+        "firstName": "الإسم الاول",
+        "birthDate": "تاريخ الميلاد",
+        "nationalIDNumber": "رقم بطاقة الرقم القومي",
+        "update": "تحديث",
+        "firstNameValidation": "الاسم مطلوب ويمكن أن يحتوي فقط على أحرف عربية أو إنجليزية"
+    },
+    "ChangePasswordPage": {
+        "changePassword": "تغير الرقم السري",
+        "oldPassword": "إدخل الرقم السري القديم",
+        "newPassword": "إدخل رقم سري جديد",
+        "confirmNewPassword": "إدخل الرقم السري الجديد مرة اخرى",
+        "update": "تحديث",
+        "forgotPassword": "هل نسيت الرقم السري؟",
+        "oldPasswordValidation": "كلمة المرور القديمة مطلوبة",
+        "newPasswordValidation": "يجب أن تتكون كلمة المرور من ٨ أحرف على الأقل وأن تحتوي على حرف خاص ورقم",
+        "confirmNewPasswordValidation": "الرجاء تأكيد كلمة المرور الجديدة",
+        "passwordsMatchValidation": "كلمات السر الخاصة بك لا تتطابق"
+    },
+    "ContactInfoPage": {
+        "contact": "طرق الإتصال",
+        "phoneNumberType": "نوع الرقم",
+        "workPlace": "محل عمل",
+        "enterNewNumber": "إدخل رقم جديد",
+        "add": "أضف",
+        "savedNumbers": "الأرقام الخاصة بهذا الحساب",
+        "work": "عمل",
+        "home": "منزل",
+        "personal": "شخصي",
+        "authenticated": "موثق",
+        "notAuthenticated": "غير موثق",
+        "phoneNumberValidation": "يرجى إدخال رقم هاتف صالح"
+    },
+    "PaymnetMethods": {
+        "title": "وسائل الدفع",
+        "cardTitle": "وسائل الدفع المتوفرة",
+        "wallet": "محفظة دايرة",
+        "bank": "حساب بنكي",
+        "vipCard": "كارت ميزة",
+        "addButton": "أضف وسيلة دفع"
+    },
+    "AddNewPayment": {
+        "type": "إختر نوع وسيلة الدفع",
+        "source": "جهة الإصدار",
+        "number": "رقم الكارت",
+        "publishDate": "تاريخ الإصدار",
+        "expireDAte": "تاريخ الإنتهاء"
+    },
+    "IDdocsPage": {
+        "personalIDdocs": "بطاقات التعريف الشخصية",
+        "nationalID": "بطاقة رقم قومي",
+        "driversLicense": "رخصة قيادة",
+        "passport": "جواز سفر",
+        "authenticated": "موثق",
+        "notAuthenticated": "غير موثق",
+        "addNewID": "أضف تعريف جديد"
+    },
+    "AddNewIDPage": {
+        "personalIDdocs": "بطاقات التعريف الشخصية",
+        "chooseTypeOfDoc": "إختر نوع التعريف",
+        "nationalID": "بطاقة رقم قومي",
+        "driversLicense": "رخصة قيادة",
+        "passport": "جواز سفر",
+        "enterIDNumber": "أكتب الرقم",
+        "issueDate": "تاريخ الإصدار",
+        "expiryDate": "تاريخ الإنتهاء",
+        "attachFile": "تحميل الملف",
+        "add": "أضف",
+        "IDNumberValidation": "الرجاء إدخال رقم قومي صالح",
+        "invalidDateFormatValidation": "الرجاء إدخال تنسيق تاريخ صالح",
+        "invalidDateValidation": "ارجوك ادخل تاريخ صحيح",
+        "attachFileValidation": "يرجى إرفاق ملف"
+    },
+    "SelectIdPage": {
+        "title": "تحقق من هويتك",
+        "selectId": "البطاقة الشخصية"
+    },
+    "IdFront": {
+        "title": "التقاط الواجهة الامامية",
+        "subtitle": "الآن ضع هاتفك مباشرة أعلى هويتك الوطني",
+        "firstPoint": "إضاءة جيدة",
+        "firstPointsub": "تأكد من أنك في منطقة جيدة الإضاءة",
+        "secondPoint": "سطح مستوي",
+        "secondPointsub": "يرجى وضع بطاقة الهوية على سطح مستو",
+        "thirdPoint": "إلتقاط",
+        "thirdPointsub": "ضع صورتك داخل الإطار والتقط الصورة",
+        "capture": "التقط"
+    },
+    "CaptureId": {
+        "subtitle": "ضع صورتك داخل الإطار والتقط الصورة"
+    },
+    "ConfirmId": {
+        "title": "تاكيد التقاط الواجهة الامامية",
+        "subtitle": "هذه هي الواجهه الاماميه لبطاقه الرقم القومي الخاص بك الذي التقطته، يرجى التحقق والتأكيد أو الرفض او الالتقاط مرة أخرى ",
+        "confirm": "تأكيد",
+        "recapture": "اعاده التقاط"
+    },
+    "CaptureIdBack": {
+        "title": "التقاط الواجهة الخلفية"
+    },
+    "ConfirmIdBack": {
+        "title": "تاكيد التقاط الواجهة الخلفية",
+        "subtitle": "هذه هي الواجهه الخلفيه لبطاقه الرقم القومي الخاص بك الذي التقطته، يرجى التحقق والتأكيد أو الرفض او الالتقاط مرة أخرى "
+    },
+    "Results": {
+        "title": "النتائج",
+        "name": "الاسم",
+        "idNumber": "رقم البطاقه",
+        "birthDate": "تاريخ الميلاد",
+        "address": "العنوان",
+        "gender": "النوع",
+        "maritalStatus": "الحاله الاجتماعيه",
+        "job": "الوظيفه",
+        "expiryDate": "تاريخ الانتهاء",
+        "next": "التالي"
+    },
+    "Loader": {
+        "load": "تحميل"
+    },
+    "UserAccountHeaderCard": {
+        "title": "الرصيد الحالي"
+    },
+    "UserAccountTransactionList": {
+        "transactions": "المعاملات",
+        "upcoming": "القادمة",
+        "incoming": "إيراد",
+        "outgoing": "قسط"
+    },
+    "UserAccountTransactionInfo": {
+        "text": "يوجد نحو مليار عامل وافد حول العالم يرسلون الأموال إلى عائلاتهم في شكل حوالات مالية"
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../../../custom.scss';
+
+.method {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10pt;
+  vertical-align: middle;
+  width: 100%;
+
+  .primary-border {
+    border-bottom: 1px solid $faded-primary-color;
+  }
+  .button-active:disabled {
+    // background-color: $secondary-color;
+    // border-color: $secondary-color;
+    font-size: 10px;
+    // font-family: $arabic-font-family;
+    font-weight: 500;
+    width: 60pt;
+    height: 18pt;
+  }
+  .end-Align {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5px;
+  }
+}
